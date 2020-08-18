@@ -4,19 +4,15 @@ import './App.css';
 import Main from "./components/Main";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
+import Home from "./containers/Home";
 
-import "./App.css";
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Wrapper>
-        <Header />
-        <Main />
-      </Wrapper>
+    <div>
+      <Home />
     </div>
   );
-}
+};
 
 export default App;
 
